@@ -5,7 +5,7 @@ import Footer from ".containers/Footer";
 import Header from ".containers/Header";
 import Skills from ".containers/Skills";
 import Testimonial from ".containers/Testimonial";
-import About from ".containers/About";
+import Work from ".containers/Work";
 
 const App = () => {
     return (
