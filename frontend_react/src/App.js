@@ -1,26 +1,20 @@
-import React from "react";
+import React from 'react';
 
-import About from ".containers/About";
-import Footer from ".containers/Footer";
-import Header from ".containers/Header";
-import Skills from ".containers/Skills";
-import Testimonial from ".containers/Testimonial";
-import Work from ".containers/Work";
+import { About, Footer, Skills, Header, Testimonial, Work } from './container';
+import { Navbar } from './components';
+import './App.scss';
 
-import { Navbar } from "./components";
 
-const App = () => {
-    return (
-        <div className = "App">
-            <Navbar />
-            <Header />
-            <About />
-            <Work />
-            <Skills />
-            <Testimonial />
-            <Footer />
-         </div>
-    );
-}
+const App = () => (
+  <div className="app">
+    <Navbar />
+    <Header />
+    <About />
+    <Work />
+    <Skills />
+    <Testimonial />
+    <Footer />
+  </div>
+);
 
 export default App;
