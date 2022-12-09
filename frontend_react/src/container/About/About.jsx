@@ -5,10 +5,10 @@ import { images } from '../../constants'
 import './About.scss';
 
 const abouts = [
-    { title: 'Software Engineering', description: 'et is re.', imgUrl: images.about01 },
-    { title: 'Full-Stack Development', description: 'et is re.', imgUrl: images.about02 },
-    { title: 'Backend Engineering', description: 'et is re.', imgUrl: images.about03 },
-    { title: 'Mobile Application Development', description: 'et is re.', imgUrl: images.about04 }
+    { title: 'Software Engineering', description: 'Software Project Description', imgUrl: images.about01 },
+    { title: 'Full-Stack Development', description: 'Software Project Description', imgUrl: images.about02 },
+    { title: 'Backend Engineering', description: 'Software Project Description', imgUrl: images.about03 },
+    { title: 'Mobile Application Development', description: 'Software Project Description', imgUrl: images.about04 }
 ];
 
 const About = () => {
