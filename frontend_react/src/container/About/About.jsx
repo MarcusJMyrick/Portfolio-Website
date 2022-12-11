@@ -29,7 +29,7 @@ const [abouts, setAbouts] = useState([]);
                 {abouts.map((about, index) => (
                     <motion.div
                     whileInView= {{ opacity: 1 }}
-                    whileHover= {{ scale: 1.2 }}
+                    whileHover= {{ scale: 1.3 }}
                     transition= {{ duration: 0.5, type: "tween" }}
                     className= "app__profile-item"
                     key={about.title + index}
