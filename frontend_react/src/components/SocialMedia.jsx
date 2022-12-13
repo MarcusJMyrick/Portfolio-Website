@@ -1,6 +1,6 @@
 import React from 'react'
-import { BsLinkedin, BsInstagram} from 'react-icons/bs';
-import { SiHandshake } from 'react-icons/si';
+import { BsLinkedin, BsInstagram, BsGithub} from 'react-icons/bs';
+
 
 const SocialMedia = () => {
   return (
@@ -9,7 +9,7 @@ const SocialMedia = () => {
             <BsLinkedin/>
         </div>
         <div>
-            <SiHandshake/>
+            <BsGithub/>
         </div>
         <div>
             <BsInstagram/>
