@@ -14,7 +14,7 @@ const [abouts, setAbouts] = useState([]);
         client.fetch(query)
         .then((data) => setAbouts(data))
     }, []);
-
+//change the h2 tag names
     return (
         <> 
             <h2 className='head-text'> 
