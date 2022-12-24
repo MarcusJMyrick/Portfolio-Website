@@ -27,6 +27,8 @@ import profile_trans from '../assets/profile_trans.png';
 import circle from '../assets/circle.svg';
 import logo1 from '../assets/logo1.png';
 
+import Ruby_On_Rails from '../assets/Ruby_On_Rails.png'
+
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
 import asus from '../assets/asus.png';
@@ -36,6 +38,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  Ruby_On_Rails,
     git,
     email,
     mobile,
